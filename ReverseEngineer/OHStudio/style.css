@@ -1,0 +1,218 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'PP Neue Montreal', sans-serif;
+  box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.box{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    padding: 4px;
+    background-color:rgb(243, 242, 241);
+    border-radius: 100px;
+    max-width: 300px;
+    backdrop-filter: blur(5px);
+    background: rgba(243, 242, 242, 0.8);
+}
+
+.home, .profile, .contact{
+    padding-inline: 24px;
+    padding-block: 12px;
+    
+}
+
+.home{
+    background-color: white;
+    border-radius: 100px;
+}
+
+
+.herotext{
+    font-size: 36px;
+    font-weight: 500;
+    text-align: center;
+    padding: 20px;
+    padding-block: 80px;
+    padding-bottom: 16px;
+    display: flex;
+    justify-content: center;
+}
+
+.option{
+    
+    visibility:hidden;
+}
+
+.images{
+    display: flex;
+    flex-direction: column;
+    padding-inline: 24px;
+    /* padding-top: 16px; */
+    justify-content: center;
+    align-items: center;
+}
+
+.rowimage{
+    width: 100%;
+    height: auto;
+    /* max-width:460px; */
+    padding: 8px;
+    border-radius: 2rem;
+}
+
+.textbottom{
+    font-size: 30px;
+    font-weight: 500;
+    text-align: center;
+    padding-inline: 24px;
+    padding-block: 40px;
+}
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-weight: 500;
+}
+.socials{
+    display: flex;
+    flex-direction: row;
+    padding-block: 8px;
+    justify-content: center;
+}
+
+.socials p{
+    padding-inline: 16px;
+    padding-block: 8px;
+    margin: 0;
+}
+
+.year{
+    padding-inline: 16px;
+    padding-block: 8px;
+    text-align: center;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+@media(width>810px){
+
+    header{
+        display: flex;
+        flex-direction: column;
+        padding-inline: 30px;
+        padding-block: 40px;
+        font-size: 14px;
+        font-weight: 500;
+        position:fixed;
+        margin-inline: auto;
+        left: 0;
+        right: 0;
+        
+    }
+
+    .home, .profile, .contact{
+        padding-inline: 28px;
+        padding-block: 11px;
+        
+    }
+
+    .herotext{
+        font-size: 72px;
+        font-weight: 500;
+        text-align: center;
+        padding: 400px;
+        padding-block: 40px;
+        padding-top: 220px;
+        
+    }
+
+    .option{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        visibility:visible;
+    }
+
+    .expertise, .Branding, .Product, .Design-Systems{
+        padding-inline: 12px;
+        margin-inline: 8px;
+        padding-block: 8px;
+        font-weight: 500;
+        font-size: 14px;
+        margin-bottom: 80px;
+    }
+
+    .Branding, .Product, .Design-Systems{
+        background-color: #F3F2F1;
+        border-radius: 100px;
+    }
+
+    .images{
+        display: flex;
+        flex-direction: row;
+        padding-inline: 24px;
+        padding-top: 16px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .rowimage{
+        width: 100%;
+        height: auto;
+        max-width:715px;
+        padding: 8px;
+        border-radius: 2rem;
+    }
+
+    .textbottom{
+        font-size: 38px;
+        font-weight: 500;
+        text-align: center;
+        padding-inline: 590px;
+        padding-block: 120px;
+    }
+
+    .footer{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        
+    }
+    .socials{
+        display: flex;
+        flex-direction: row;
+        padding: 16px;
+        padding-inline: 64px;
+    }
+   
+    .socials p{
+        padding-inline: 16px;
+        padding-block: 8px;
+    }
+
+    .year{
+        padding-inline: 16px;
+        padding-block: 8px;
+        text-align: center;
+        justify-content: center;
+    }
+}
